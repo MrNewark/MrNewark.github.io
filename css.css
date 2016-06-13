@@ -1,4 +1,4 @@
-.container-narrow {margin-left: 50px;margin-right: 100px;}
+.container-narrow {margin-left: 50px;margin-right: 50px;}
 #content {background-color:white;
             overflow-y: auto;}
 #footer {background-color:black;}
@@ -31,10 +31,15 @@ p, div {
                     max-height: 200px;
                     overflow-y:scroll;
                     margin-top: 10px}
+#content-sidebar-image {max-height:200px;
+                        margin-top:10px;}
+#class-well 
 
 /*Announcment Area*/
 #announcments {background-color: cornsilk;
     box-shadow: 10px 10px 5px #888888;
     padding-top:5px
             }
+/*Nav Bar*/
 footer {background-color: black;s}
+#designed-by {margin-left:5px;}
