@@ -1,0 +1,40 @@
+.container-narrow {margin-left: 50px;margin-right: 100px;}
+#content {background-color:white;
+            overflow-y: auto;}
+#footer {background-color:black;}
+.navbar-fixed-bottom {margin-right:25px;}
+body {background: url(14557-NPQ2K8.jpg);}
+h1 {
+    text-align: center;
+    text-shadow: 3px 2px 1px #ccc;
+}
+h4 {
+    text-align: center;
+}
+h1, h2, h3, h4, h5, h6 {
+     font-family: 'Corben', Georgia, Times, serif;
+}
+p, div {
+    font-family: 'Cardo', Georgia, Times, serif;
+}
+
+#header-col {background-color:aquamarine;
+            border-bottom: 1px solid black}
+
+/*Nav Bar*/
+#nav-col {background-Color:white;
+          height:auto;
+    border-bottom: 1px solid black;}
+
+/*Content Area*/
+#content-sidebar {background-color:lightslategray;
+                    max-height: 200px;
+                    overflow-y:scroll;
+                    margin-top: 10px}
+
+/*Announcment Area*/
+#announcments {background-color: cornsilk;
+    box-shadow: 10px 10px 5px #888888;
+    padding-top:5px
+            }
+footer {background-color: black;s}
