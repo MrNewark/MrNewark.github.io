@@ -1,5 +1,5 @@
 
-.container-narrow {margin-left: 50px;margin-right: 50px;}
+.container-narrow {margin-left: 50px;margin-right: 50px;margin-bottom:0px;}
 #content {background-color:white;
             overflow-y: auto;}
 #footer {background-color:black;}
