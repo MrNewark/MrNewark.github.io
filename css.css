@@ -1,9 +1,10 @@
+
 .container-narrow {margin-left: 50px;margin-right: 50px;}
 #content {background-color:white;
             overflow-y: auto;}
 #footer {background-color:black;}
 .navbar-fixed-bottom {margin-right:25px;}
-body {background: url(14557-NPQ2K8.jpg);}
+body {background: url(14557-NPQ2K8.jpg);height:100%;}
 h1 {
     text-align: center;
     text-shadow: 3px 2px 1px #ccc;
