@@ -14,13 +14,15 @@ h4 {
 }
 h1, h2, h3, h4, h5, h6 {
      font-family: 'Corben', Georgia, Times, serif;
+    text-align:center;
 }
 p, div {
     font-family: 'Cardo', Georgia, Times, serif;
 }
 
 #header-col {background-color:aquamarine;
-            border-bottom: 1px solid black}
+            border-bottom: 1px solid black;
+            height:25%;}
 
 /*Nav Bar*/
 #nav-col {background-Color:white;
@@ -34,13 +36,14 @@ p, div {
                     margin-top: 10px}
 #content-sidebar-image {max-height:200px;
                         margin-top:10px;}
-#class-well 
-
+.well {height:200px;
+        overflow-y:auto;}
 /*Announcment Area*/
 #announcments {background-color: cornsilk;
     box-shadow: 10px 10px 5px #888888;
-    padding-top:5px
+    padding-top:5px;
             }
 /*Nav Bar*/
 footer {background-color: black;margin-bottom:0px;}
 #designed-by {margin-left:5px;}
+
