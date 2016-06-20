@@ -1,3 +1,13 @@
 body {background: url(14557-NPQ2K8.jpg);height:100%;}
 .navbar-brand {font-family: 'Corben', Georgia, Times, serif;font-size: 12px;}
 li {font-family: 'Cardo', Georgia, Times, serif;}
+.well {overflow-y: auto;}
+.jumbotron {background: url(Mixing%20Board%20Stock%20Photo.jpg) no-repeat center center;background-size:cover;color:white;text-shadow:3px 3px black;}
+#navbar-image {background: url(Mixing%20Board%20Stock%20Photo.jpg) no-repeat center center;background-size:cover;min-height:50px;color:white;min-height: 150px;height:100px;}
+#welcome-text {position: relative;
+    top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+text-shadow: 3px 3px black}
+#announcment {background-color:red;}
