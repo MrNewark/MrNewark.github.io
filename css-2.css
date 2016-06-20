@@ -11,3 +11,19 @@ li {font-family: 'Cardo', Georgia, Times, serif;}
   transform: translateY(-50%);
 text-shadow: 3px 3px black}
 #announcment {background-color:red;}
+button {margin-top:15px;}
+#content {background-Color:white;}
+#overview {background-color:gray}
+@media (min-width: 768px) {
+  .table-row {
+    display: table;
+    table-layout: fixed;
+  }
+
+  .table-row [class^="col-"] {
+    display: table-cell;
+    float: none;
+  }
+}
+
+footer {background-color:black;height:50px;}
