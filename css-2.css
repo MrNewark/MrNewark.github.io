@@ -9,10 +9,18 @@ li {font-family: 'Cardo', Georgia, Times, serif;}
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
 text-shadow: 3px 3px black}
+h3 {font-family: 'Corben', Georgia, Times, serif;font-size: 18px;padding-top:18px;}
 #announcment {background-color:red;}
 button {margin-top:15px;}
 #content {background-Color:white;}
 #overview {background-color:gray}
+.border{
+transition: .5s ease;
+}
+.border:hover{
+box-shadow: 0 0 0 5px yellow;
+transition: .5s ease;
+}
 @media (min-width: 768px) {
   .table-row {
     display: table;
