@@ -63,7 +63,11 @@ transition: .5s ease;
 #footer {background-color:black;height:50px;}
 
 #resize {margin-top: -10px;}
-
+.modal-body {margin-top:-40px;}
+#flexbox {
+    display:flex;
+    justify-content:space-around;
+}
 
 
 hr.style-four {

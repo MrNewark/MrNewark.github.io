@@ -4,10 +4,9 @@
  <meta charset="utf-8">
  <meta http-equiv="X-UA-Compatible" content="IE=edge">
  <meta name="viewport" content="width=device-width, initial-scale=1">
- <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
  <title>Forest Newark</title>
-
- <!-- Bootstrap -->
+<!-- Bootstrap -->
+<link href="bootstrap/css/bootstrap.css" rel="stylesheet">
 <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 <link href="css-2.css" rel="stylesheet">
 <link href="http://fonts.googleapis.com/css?family=Corben:bold" rel="stylesheet" type="text/css">
@@ -30,20 +29,6 @@
  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
  <ul class="nav navbar-nav">
  <li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
- <li><a href="#">About</a></li>
- <li class="dropdown">
- <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Classes<span class="caret"></span></a>
- <ul class="dropdown-menu">
- <li><a href="Hip-Hop.html">Hip-Hop</a></li>
- <li><a href="singer-songwriter.html">Singer & Songwriter</a></li>
- <li><a href="rockband.html">RockBand</a></li>
- <li role="separator" class="divider"></li>
- <li><a href="intro.html">Intro to Music Technology</a></li>
- <li><a href="#">Advanced Studio</a></li>
- <li role="separator" class="divider"></li>
- <li><a href="guitar.html">Intro Guitar for Singers & Songwriters</a></li>
- </ul>
- </li>
  <li class="dropdown">
  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Student Resources<span class="caret"></span></a>
  <ul class="dropdown-menu">
@@ -78,7 +63,7 @@
 
 <div class="container-fluid">
     <div class="row">
-    <div class="col-xs-12" style="margin-bottom:-25px;margin-top:-25px;"><h3 class="text-center"style="opacity:2;">Class Overivews</h3></div>
+    <div class="col-xs-12" style="margin-bottom:-25px;margin-top:-25px;"><h3 class="text-center"style="opacity:2;">Class Information</h3></div>
     </div>
     <hr class="style-four" style="margin-bottom:-10px">
     <div class="row">
@@ -86,7 +71,7 @@
         <a data-toggle="modal" href="#hipHopModal"><div id="resize" class="center-block img-responsive border" style="width:500px;height:100px;background-color:black;"><div><h3 class="text-center" style="color:white;"><br>Hip Hop<br><span class="glyphicon glyphicon-info-sign"></span></h3></div></div></a></div>
      
         <div id="one" class="col-xs-2">
-            <a data-toggle="modal" href="#songwriterModal"><div id="resize" class="center-block img-responsive border" style="width:500px;height:100px;background-color:blue;"><h3 class="text-center" style="color:white;"><br>Singer - Songwriting<br><span class="glyphicon glyphicon-info-sign"></span></h3></div></a></div>
+            <a data-toggle="modal" href="#songwriterModal"><div id="resize" class="center-block img-responsive border" style="width:500px;height:100px;background-color:blue;"><h3 class="text-center" style="color:white;"><br>Singer-Songwriter<br><span class="glyphicon glyphicon-info-sign"></span></h3></div></a></div>
      
         <div id="one" class="col-xs-2">
         <a data-toggle="modal" href="#hipHopModal"><div id="resize" class="center-block img-responsive border" style="width:500px;height:100px;background-color:red;"><h3 class="text-center" style="color:white;"><br>Rockband<br><span class="glyphicon glyphicon-info-sign"></span></h3></div></a></div>
@@ -109,10 +94,20 @@
         <h4 class="modal-title" id="myModalLabel">Hip Hop: History, Culture and Performance</h4>
       </div>
       <div class="modal-body">
+    <h3>Class Description</h3>
        There are three main objectives of this course: first, it will introduce students to the general history of rap music. This will include prominent performances and relevant cultural references. Second, we will explore the other elements of the hip hop culture including breakdancing and graffiti . Third, this course will require students to think critically about rap music and its place in society and their lives. We will use listening exercises and demonstrations to examine how rappers create meaning in their musical works. We will consider in detail such controversial subjects as censorship, sexism, obscenity, and race politics in America as they relate to rap music.
-      </div>
+    <hr>
+    <h3 style="margin-top:-30px;">Schology Information</h3>
+    <p>All class information is stored on the Schoology Platform. Please use the class code to join for this class</p>
+          <p>Schoology Code:</p><a href="https://support.schoology.com/hc/en-us/articles/201002373-Video-How-to-use-Schoology-Student-View-"><button class="center-block btn btn-info">Learn About Schoology</button></a>
+    <hr>
+    <h3 style="margin-top:-30px;">Class Documents</h3>
+    <div id="flexbox">
+    <a href="#" style="display:inline-block"><button class="btn btn-success">Class Syllabus</button></a>
+    <a href="#" style="display:inline-block"><button class="btn btn-success">Parent Permission Form</button></a>
+    </div>
+        </div>
       <div class="modal-footer">
-        <a href="Hip-Hop.html"><button class="btn btn-info">Go to Class Page</button></a>
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
       </div>
     </div>
@@ -135,7 +130,7 @@
     </div>
   </div>
 </div>  <!-- End of Modal -->
-<hr class="style-four">
+<hr class="style-four" style="margin-top:10px;">
 <div class="container-fluid">
 <div class="row table-row">
 <div id="content" class="col-md-12">
@@ -145,7 +140,7 @@
 <div class="col-md-2">
     <img src ="SCS-Sign2.png" style="height:150px;" class="img-rounded center-block"></div>
 <div class="col-md-10">
-<em style="display:inline-block">"The School for Creative Studies is a small, innovative, public magnet school serving grades 6-12. Our curriculum focuses on developing students into observant, resourceful, and adaptable problem solvers. Our students develop a wide range of communication skills including analyzing and communicating through visual images, media, and technology. We focus on real-world application of these skills and readiness for a future in the innovation driven economy."</em>
+<p style="display:inline-block">"The School for Creative Studies is a small, innovative, public magnet school serving grades 6-12. Our curriculum focuses on developing students into observant, resourceful, and adaptable problem solvers. Our students develop a wide range of communication skills including analyzing and communicating through visual images, media, and technology. We focus on real-world application of these skills and readiness for a future in the innovation driven economy."</p>
 <a href="http://scs.dpsnc.net/pages/School_for_Creative_Studies"><button class="btn btn-info center-block">Learn More about SCS</button></a></div></div>
 
 <h3>About the Music and Technology Classroom</h3>
@@ -157,23 +152,18 @@
 Students will have interactions with artist and musicians ranging from the local DPS school community up to professional performing musicians. Students will learn the skills it takes to make make a living in the competitive world of music. </p></div>
 <hr>
 </div>
-
-<hr>
 </div>
      </div>
      </div>
 <div id="footer" class="container-fluid navbar-static-bottom">
-<h6 style="color:white">Website Designed and Coded by Forest Newark</h6>
-<h6 style="color:white">Build on the Bootstrap Framework</h6>
+<h6 style="color:white;text-align:center;">Website Designed and Coded by Forest Newark</h6>
+<h6 style="color:white;text-align:center;">Build on the Bootstrap Framework</h6>
     </div>
 </div>
     
-
-
-
- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<script src="js.js"></script>
- 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="bootstrap/js/bootstrap.js"></script>
+<script src="jquery.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
  </body>
 </html>
